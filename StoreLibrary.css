@@ -1,0 +1,235 @@
+
+h1 {
+    font-family: fantasy;
+    font-size: 40pt;
+    text-align: center;
+    background-color: lightgray;
+
+}
+body {
+    width: 100%;
+}
+.h2 {
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 15pt;
+    text-align: center;
+    align-content: center;
+}
+.background{
+    background-image: url(http://i.stack.imgur.com/jGlzr.png);
+
+}
+.pagebackground{
+    background-color: ghostwhite;
+}
+.cursive {
+    font-family: cursive;
+    font-size: 15pt;
+    text-align: center;
+}
+p { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;}
+
+.border {
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: 15px;
+    border-style: double;
+}
+.borderh1{
+    padding:5px;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+
+}
+.borderh2{
+    padding:5px;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    margin-left: 40%; 
+    }
+ol {
+    text-align: center;
+    align-content: center;
+}
+.tr:nth-child(even) {/* changes color of even and odd rows*/
+    background-color: blue;
+}
+
+.tr:nth-child(odd) {
+    background-color: red;
+}
+#nav.wrapper {
+
+    margin: 5px;
+}
+#nav li{
+
+    display: inline;
+    
+    float:left; /* floats one after another*/
+    
+    justify-content: space-around;
+    
+    display:flex; /* floats to the left of everything*/
+
+}
+
+#nav ul {
+
+    list-style-type: none; /* bullet, number, block, etc....*/
+
+    margin: 0;
+
+    position: 100%;
+    
+    right: 0px;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: black;
+
+    justify-content: space-around;
+
+    display: flex;
+
+}
+
+#nav li a {
+
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+#nav li a:hover { /* on the event of hover, apply background color to set hover color*/
+
+    background-color:#B00000;
+
+}
+#nav2 .wrapper {
+
+    margin: 5px;
+}
+#nav2 li{
+
+    display: inline;
+    
+    float:left; /* floats one after another*/
+    
+    justify-content: space-around;
+    
+    display:flex; /* floats to the left of everything*/
+
+}
+
+#nav2 ul {
+
+    list-style-type: none; /* bullet, number, block, etc....*/
+
+    margin: 0;
+
+    position: 100%;
+    
+    right: 0px;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: black;
+
+    justify-content: space-around;
+
+    display: flex;
+
+}
+
+#nav2 li a {
+
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+
+
+#nav2 li a:hover { /* on the event of hover, apply background color to set hover color*/
+
+    background-color:#B00000;}
+#img3 .fill{ /* centers picture in div*/
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+#img3{
+    flex-shrink: 1;
+    margin-left: 8%;
+    margin-right: .2%;
+    min-width: 50%;
+    min-height: 0%
+}
+#image img{
+width:200px; /*width of your image*/
+   height:200px; /*height of your image*/
+
+}
+#joystick {
+    width: 80px;
+    height: 50px;
+}
+#table table{
+    overflow:hidden;
+    float:left;
+    background-color: #B00000;
+}
+#table img{
+    width: 200px;
+    height: 200px;
+}
+.button {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    border: firebrick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+#text {
+    float: center;
+    float: top;
+    overflow: hidden;
+    background-color: #B00000;
+    
+    }
+#img7 {
+    width: 90%;
+}
+#thanks {
+margin-top: 117px;
+}
