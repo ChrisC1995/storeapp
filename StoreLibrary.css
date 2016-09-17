@@ -51,6 +51,12 @@ text-align: center;}
     border-color: black;
     margin-left: 40%; 
     }
+.borderPic{
+    border-style: double;
+    border-width: 15px;
+    border-color: #B00000;
+
+}
 ol {
     text-align: center;
     align-content: center;
@@ -230,6 +236,15 @@ width:200px; /*width of your image*/
 #img7 {
     width: 90%;
 }
+#img8 {
+    width: 200px;
+    height: 200px;
+    align-content: middle;
+}
+
+
 #thanks {
-margin-top: 117px;
+margin-top: 0px;
+height: 315px;
+float: top;
 }
